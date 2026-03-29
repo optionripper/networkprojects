@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the data
-df = pd.read_csv("C:/Users/19086/Downloads/network_metrics_project1.csv")
+df = pd.read_csv("network_metrics_project1.csv")
 
 # Find problem devices
 problem_devices = df[(df["latency_ms"] > 100) & (df["errors"] > 2)]
