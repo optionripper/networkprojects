@@ -1,0 +1,4 @@
+device,region,latency_ms,packet_loss,cpu_percent,status,issue_reason
+switch1,nyc1,210,3.5,88,critical,"high latency, packet loss, high cpu"
+firewall1,dc1,175,2.2,91,critical,"high latency, packet loss, high cpu"
+router2,nj1,130,1.8,72,warning,"high latency, packet loss"
